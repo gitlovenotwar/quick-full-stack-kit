@@ -1,0 +1,8 @@
+@import '../../styles/_variables.css';
+
+.root {
+  background: #d95c22;
+}
+.inner {
+  min-height: $header-height;
+}

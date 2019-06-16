@@ -1,0 +1,62 @@
+{
+  "name": "quick-full-stack-kit",
+  "version": "1.0.0",
+  "description": "A quick full starter kit that utilizes the modern kit for a full stack app. It is designed to as setup as simple as possible to extend for different uses.",
+  "main": "src/server/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "client": "webpack-dev-server --mode development",
+    "server": "nodemon src/server/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "concurrently \"npm run build\" \"npm run server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-classes": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^1.0.0",
+    "concurrently": "^4.1.0",
+    "css-loader": "^1.0.1",
+    "express": "^4.16.4",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.18.7",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.6.0",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "classnames": "^2.2.6",
+    "dotenv-webpack": "^1.7.0",
+    "history": "^4.7.2",
+    "postcss-advanced-variables": "^3.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.1.2",
+    "prop-types": "^15.6.2",
+    "qs": "^6.7.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "simplebar": "^4.0.0"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=11.4.0"
+  }
+}

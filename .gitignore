@@ -1,0 +1,15 @@
+# mac hidden files
+.DS_Store
+
+# package depencencies
+node_modules
+
+# distribution folder wheen client source files will be compiled
+dist
+server/dist
+
+# logs
+*.log
+
+# vars
+.env
