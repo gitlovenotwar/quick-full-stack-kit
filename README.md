@@ -31,3 +31,4 @@ npm - v5.6+
 - Redux
 - React Router
 - Express
+- PostCSS / CSS Modules
