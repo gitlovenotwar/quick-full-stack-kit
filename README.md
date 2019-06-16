@@ -6,6 +6,7 @@ A quick starter kit that utilizes modern web technologies for full stack app usi
 ### Usage:
 - Clone the repository
 - Extend / Add more dependencies for suitable needs
+- run at least once `npm run build` to have the `dist` folder created for server to have the client source compiled and be served
 
 
 ### Requirements
