@@ -12,8 +12,8 @@ A quick starter kit that utilizes modern web technologies for full stack app usi
 
 ### Requirements
 ```
-node - v10+
-npm - v5.6+
+node >= v11.4.0
+npm >= v6.4.1
 ```
 
 ### Commands:
@@ -34,3 +34,10 @@ npm - v5.6+
 - React Router
 - Express
 - PostCSS / CSS Modules
+
+
+### Using As Front-End Source Code Only
+- Delete `src/server`
+- Copy all the files inside `src/client` and paste it in `src`, after delete `src/client` folder
+- Adjust / remove paths in `webpack.config.js`
+- Remove dependencies used for `server`
