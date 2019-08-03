@@ -7,8 +7,7 @@
     "build": "webpack --mode production",
     "client": "webpack-dev-server --mode development",
     "server": "nodemon src/server/server.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "start": "concurrently \"npm run build\" \"npm run server\""
+    "start": "npm run client"
   },
   "keywords": [],
   "author": "",
@@ -53,8 +52,7 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "redux": "^4.0.1",
-    "redux-actions": "^2.6.5",
-    "simplebar": "^4.0.0"
+    "redux-actions": "^2.6.5"
   },
   "engineStrict": true,
   "engines": {

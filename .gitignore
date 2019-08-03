@@ -13,3 +13,10 @@ server/dist
 
 # vars
 .env
+
+# lock files
+*-lock.json
+*.lock
+
+# error files
+*.error
