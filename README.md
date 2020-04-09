@@ -16,12 +16,11 @@ node >= v12.13.0
 npm >= v6.12.0
 ```
 
+
 ### Commands:
-`npm run server` - to start the server
-
-`npm run start` - to start the development on client 
-
-`npm run build` - to compile client assets to be deployed, it will create `dist` folder on server
+- `npm run server` - open terminal and run it on root project to start the server
+- `npm run start` - open another terminal and run it on root project as well to start the development on client 
+- `npm run build` - to compile client assets to be deployed, it will create `dist` folder on server
 
 
 ### Frameworks and Tools
@@ -33,6 +32,12 @@ npm >= v6.12.0
 - Redux Saga
 - Express
 - PostCSS / CSS Modules
+
+
+### Client Workflow
+- an action will be dispatched through actions defined in each action types.
+- saga will listen to any actions to fire side effects, call apis, etc...
+- saga will dispatch success / fail which will receive then through reducers
 
 
 ### Using As Front-End Source Code Only
