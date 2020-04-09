@@ -20,3 +20,6 @@ server/dist
 
 # error files
 *.error
+
+# test snapshots
+__snapshots__
