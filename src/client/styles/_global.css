@@ -8,7 +8,6 @@
   body,
   html {
     font-family: 'Lato';
-    background-color: $white-light;
   }
 
   .container {
@@ -52,11 +51,4 @@
       text-decoration: none;
     }
   }
-}
-
-
-
-
-:global {
-  
 }

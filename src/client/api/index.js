@@ -4,7 +4,7 @@ export const SERVER_BASE_HOST = location.protocol + '//' + location.hostname + '
 
 export const API_BASE_HOST = '/api';
 
-// base url to be used accrossed the axios api call
+// base url to be used acrossed the axios api call
 axios.defaults.baseURL = `${SERVER_BASE_HOST}${API_BASE_HOST}`;
 
 // headers

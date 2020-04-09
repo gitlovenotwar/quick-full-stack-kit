@@ -1,3 +1,4 @@
+// assets
 import '../assets/fonts/fonts.css';
 import './_global.css';
 

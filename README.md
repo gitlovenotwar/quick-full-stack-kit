@@ -12,18 +12,16 @@ A quick starter kit that utilizes modern web technologies for full stack app usi
 
 ### Requirements
 ```
-node >= v11.4.0
-npm >= v6.4.1
+node >= v12.13.0
+npm >= v6.12.0
 ```
 
 ### Commands:
 `npm run server` - to start the server
 
-`npm run client` - to start the development on client 
+`npm run start` - to start the development on client 
 
-`npm run dev` - to start the server and client development at the same time
-
-`npm run build` - to compile client assets to be deployed
+`npm run build` - to compile client assets to be deployed, it will create `dist` folder on server
 
 
 ### Frameworks and Tools
@@ -32,6 +30,7 @@ npm >= v6.4.1
 - ReactJS
 - Redux
 - React Router
+- Redux Saga
 - Express
 - PostCSS / CSS Modules
 

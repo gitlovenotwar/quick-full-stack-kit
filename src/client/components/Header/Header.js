@@ -7,11 +7,7 @@ const Header = ({
 }) => {
   return (
     <header className={styles.root}>
-      <div className="container">
-        <div className={classnames('d-flex', 'ai-c', 'jc-sb', styles.inner)}>
-          
-        </div>
-      </div>
+      
     </header>
   );
 };

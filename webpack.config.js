@@ -1,3 +1,6 @@
+// load env vars to webpack
+require('dotenv').config();
+
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const path = require('path');
@@ -5,9 +8,6 @@ const Dotenv = require('dotenv-webpack');
 
 const clientDir = `${__dirname}/src/client`;
 const distDir = `${__dirname}/src/server/dist`;
-
-// load env vars to webpack
-require('dotenv').config();
 
 module.exports = function(env, argv) {
   let plugins = [

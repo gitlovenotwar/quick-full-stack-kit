@@ -3,7 +3,7 @@ const usersController = require('../../controllers/users');
 
 const router = Router();
 
-router.get('/', usersController.getAllUsers);
+/** Define all routes here */
 router.get('/:id', usersController.getUserById);
 
 module.exports = router;
