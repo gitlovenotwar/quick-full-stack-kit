@@ -1,10 +1,10 @@
-// initialize .env variables first
-require('dotenv').config();
-
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
+
+// initialize .env variables first
+require('dotenv').config();
 
 const app = express();
 
